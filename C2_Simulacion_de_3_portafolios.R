@@ -78,10 +78,10 @@ sqrt(t(W) %*% S %*% W)
 p.1 + 
   annotate('point', x = s.g, y = mu.g, size = 2.5, colour = "red") +
   annotate('text', x = s.g, y = mu.g, label = "mínimo global",
-           size = 4.5, colour = "red", hjust = -0.2, vjust = 0.5) +  # izquierda
+           size = 4.5, colour = "red", hjust = -0.2, vjust = 0.5) +
   annotate('point', x = a, y = mu.bar, size = 2.5, colour = "blue") +
   annotate('text', x = a, y = mu.bar, label = "óptimo",
-           size = 4.5, colour = "blue", hjust = -0.25, vjust = 0.5) +  # izquierda
+           size = 4.5, colour = "blue", hjust = -0.25, vjust = 0.5) +
   annotate('segment', x = a, y = 3, xend = a, yend = 5.5,
            lwd = 0.6, colour = "black", linetype = "dashed") +
   ggtitle("Mínimo global")
